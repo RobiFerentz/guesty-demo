@@ -1,0 +1,15 @@
+{
+  "name": "guesty-heatmap",
+  "version": "1.0.0",
+  "description": "home assignment from guesty",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Robert Ferentz <robiferentz@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>London Heatmap</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+        }
+        #heatmap{
+            height:100%;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="heatmap"></div>
+    <script src="script.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-Lwu3ziWpUumpn4MAZkiJHl62iibr1sE&libraries=visualization&callback=createMap">
+    </script>
+</body>
+</html>
